@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcercaDe"
+    android:background="@color/primary_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center">
+            <ImageView
+                android:src="@drawable/logo_sena"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="15dp"
+                android:background="@drawable/shape_logo"/>
+        </LinearLayout>
+        <ImageView
+            android:src="@drawable/icon_hotel"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="Participante Uno"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textStyle="bold"
+            android:layout_weight="0.5"/>
+        <ImageView
+            android:src="@drawable/icon_hotel"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="Participante Dos"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textStyle="bold"
+            android:layout_weight="0.5"/>
+        <TextView
+            android:text="Reserva Ya - V1"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"/>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
